@@ -1,4 +1,5 @@
 <?php
+  header('Content-type: text/xml');
   $dom = new DOMDocument('1.0','UTF-8');
   $dom->formatOutput = true;
 
